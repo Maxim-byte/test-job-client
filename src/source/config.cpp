@@ -7,7 +7,7 @@
 #include <boost/asio.hpp>
 #include <nlohmann/json.hpp>
 
-std::filesystem::path config::path_to_config = "/home/maxim/CLionProjects/test_job_client/config/common_config.json";
+std::filesystem::path config::path_to_config = "../../config/common_config.json";
 
 config::config() {
     std::ifstream config_stream(path_to_config);
